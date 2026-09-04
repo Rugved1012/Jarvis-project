@@ -2,7 +2,7 @@ from google import genai
 
 # Initialize the Gemini client with your API key
 client = genai.Client(
-    api_key="AIzaSyCJ7sSHe9iWMcPkcqyV3cOgzJmCke51q8o"  # Replace with your actual Gemini API key
+    api_key="dfgg"  # Replace with your actual Gemini API key
 )
 
 # Generate a response using the Gemini API
