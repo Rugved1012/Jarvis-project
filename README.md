@@ -2,7 +2,7 @@
 
 A simple offline/online voice assistant implemented in Python. Jarvis listens for the wake word ("jarvis"), accepts spoken commands, can open websites, play music links, read headlines, and forward general queries to a generative AI (Gemini) to produce spoken replies.
 
-> NOTE: This repository currently contains hard-coded API keys in the source code. Remove and rotate any exposed keys immediately and use environment variables or a secure secret store. See "Security" below.
+
 
 ## Features
 - Wake-word detection using the microphone.
