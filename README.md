@@ -1,6 +1,6 @@
 # Jarvis-project
 
-A simple offline/online voice assistant implemented in Python. Jarvis listens for the wake word ("jarvis"), accepts spoken commands, can open websites, play music links, read headlines, and forward general queries to a generative AI (Gemini) to produce spoken replies.
+A simple offline/online voice assistant implemented in Python. Jarvis listens for the wake word ("jarvis"), accepts spoken commands, can open websites, play music links, read headlines, and forward[...]
 
 
 
@@ -70,3 +70,7 @@ load_dotenv()  # loads .env into environment variables
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
+```
+
+## Acknowledgements
+This project was developed with reference to CodeWithHarry's tutorial/code. Thank you to CodeWithHarry for the helpful examples and explanations.
