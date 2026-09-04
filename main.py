@@ -12,7 +12,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
-newsapi = "ca79a78d426e486f8ce85c733e50699a"
+newsapi = "ca79a" #use your api key
 
 def speak_old(text):
     engine.say(text)
@@ -39,7 +39,7 @@ def speak(text):
     os.remove("temp.mp3") 
 
 def aiProcess(command):
-  client = genai.Client(api_key="AIzaSyCJ7sSHe9iWMcPkcqyV3cOgzJmCke51q8o") 
+  client = genai.Client(api_key="Cke51q8o") #use your api key
   response = client.generate_response(
        model="gemini-1",
        context="You are a virtual assistant named jarvis skilled in general tasks like Alexa and Google Cloud. Give short responses please",
